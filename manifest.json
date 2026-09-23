@@ -1,0 +1,14 @@
+{
+  "name": "Akshar Yatra",
+  "short_name": "अक्षर यात्रा",
+  "description": "Hindi phonics, pronunciation and vocabulary for kids",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#EEF4F2",
+  "theme_color": "#E8890C",
+  "lang": "hi",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
