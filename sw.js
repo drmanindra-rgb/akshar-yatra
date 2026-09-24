@@ -1,5 +1,5 @@
 // Network-first so updates show up; falls back to cache when offline.
-const C = 'akshar-yatra-v2';
+const C = 'akshar-yatra-v4';
 const ASSETS = ['./', './index.html', './manifest.json', './icon.svg'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(C).then(c => c.addAll(ASSETS))); self.skipWaiting(); });
 self.addEventListener('activate', e => {
